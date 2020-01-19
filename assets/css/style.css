@@ -1,0 +1,22 @@
+/*---Hero Image---*/
+.hero-image {
+    height: 75vh;
+    width: 100%;
+      background: url(../images/office-desk.jpg) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  
+}
+
+/*---Footer---*/
+.footer {
+    min-height: 100px;
+    background-color: blue;
+}
+
+
+.all-icon {
+text-align: center;
+}
