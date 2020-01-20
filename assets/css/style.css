@@ -23,7 +23,7 @@ text-align: center;
 margin: 0
 }
 
-.footer-title {
+.footer-title h3 {
     text-align: center;
 }
 
@@ -33,26 +33,33 @@ margin: 0
     right: 10px;
 }
 
+
+
 /*---Home Page section---*/
 
 .center-image {
       margin: auto;
-  width: 60%;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border: 3px solid #73AD21;
   padding: 10px;
    background: url(https://sc02.alicdn.com/kf/HTB1NZysKFXXXXaBXpXXq6xXFXXX2/Men-s-Business-Suits-Thin-Wool-Suit.jpg_350x350.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   clear: both;
+  margin-top: 50px;
 }
 
 .personal-info {
     text-align: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
 
 .personal-info span {
 display: block;
 }
 
- 
+ .bio {
+     margin: 50px 10px 25px 5px
+ }
