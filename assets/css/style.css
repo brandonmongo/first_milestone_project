@@ -10,11 +10,27 @@
   
 }
 
+/*---navbar---*/
+
+.nav-style {
+    background-color: #786e79;
+    
+}
+
+.nav-style a {
+    color: white;
+}
+
+.nav-style a:hover {
+    color: black;
+}
+
 /*---Footer---*/
 .footer {
     min-height: 100px;
-    background-color: red; 
+    background-color: #786e79; 
     margin: 0;
+    color: white;
 }
 
 
@@ -23,19 +39,38 @@ text-align: center;
 margin: 0
 }
 
+.all-icon li {
+font-size: 20px;
+color: white;
+}
+
+
+.all-icon a {
+    color: white;
+}
+
+
+.all-icon a:hover {
+    color: black;
+}
+
 .footer-title h3 {
     text-align: center;
 }
 
-.dref {
-    display: inline-block;
-    position: absolute;
-    right: 10px;
+.footer-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 
 
 /*---Home Page section---*/
+
+.pic-bio {
+    background-color: #767280;
+    color: white;
+}
 
 .center-image {
       margin: auto;
@@ -61,5 +96,5 @@ display: block;
 }
 
  .bio {
-     margin: 50px 10px 25px 5px
+     margin: 75px 10px 25px 5px
  }
