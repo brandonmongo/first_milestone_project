@@ -21,14 +21,13 @@
 }
 
 .nav-style li {
-    color: white; 
     font-size: 20px;
     font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
 }
 
 .nav-style a {
     color: white;
-
 }
 
 .nav-style a:hover {
@@ -39,12 +38,16 @@
     background-color: #150E0C;
     color: white;
     border-radius: 20px;
-    height: 50px;
+    height: 35px;
     font-family: 'Oxygen', sans-serif;
     font-weight: 400; 
     width: 150px;
-    font-size: 20px;
+    font-size: 15px;
     border: none;
+}
+
+.cv-btn:active {
+    font-weight: 700;
 }
 
 /*---Footer---*/
@@ -103,6 +106,12 @@ font-family: 'Oxygen', sans-serif;
     width: 250px;
     font-size: 20px;
     border: none;
+    position: relative;
+    top: 8px;
+}
+
+.btn-dref:active {
+    font-weight: 700;
 }
 
 /*---Home Page section---*/
@@ -117,7 +126,7 @@ font-family: 'Oxygen', sans-serif;
   width: 250px;
   height: 250px;
   padding: 10px;
-   background: url(../images/man-in-suit.jpg);
+  background: url(../images/man-in-suit.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   clear: both;
