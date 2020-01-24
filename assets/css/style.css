@@ -16,7 +16,7 @@
 
 .nav-style {
     background-color: #786e79;
-    height: 10vh;
+    /*height: 10vh;*/
    
 }
 
@@ -46,10 +46,18 @@
     border: none;
 }
 
-.cv-btn:active {
+.cv-btn:active,
+.cv-btn:hover, 
+.cv-btn:focus, 
+.cv-btn:active:focus {
     font-weight: 700;
+    background-color: #150E0C;
+    border:none;
+    color: white;
 }
-
+.nav-style .navbar-brand {
+    color: white;
+}
 /*---Footer---*/
 .footer {
     min-height: 100px;
@@ -106,12 +114,18 @@ font-family: 'Oxygen', sans-serif;
     width: 250px;
     font-size: 20px;
     border: none;
-    position: relative;
-    top: 8px;
+    /*position: relative;
+    top: 8px;*/
 }
 
-.btn-dref:active {
+.btn-dref:active,
+.btn-dref:hover, 
+.btn-dref:focus, 
+.btn-dref:active:focus {
     font-weight: 700;
+    background-color: #150E0C;
+    border:none;
+    color: white;
 }
 
 /*---Home Page section---*/
