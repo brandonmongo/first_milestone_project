@@ -181,3 +181,16 @@ display: block;
     font-weight: 400;
     font-size: 19px;
 }
+
+/*--projects/skills--*/
+
+.slide-style {
+    color: black;
+}
+.slide img {
+    height: 75vh;
+}
+.progress {
+    margin-bottom: 10px;
+}
+
