@@ -111,7 +111,7 @@ font-family: 'Oxygen', sans-serif;
     height: 50px;
     font-family: 'Oxygen', sans-serif;
     font-weight: 400; 
-    width: 250px;
+    width: 230px;
     font-size: 20px;
     border: none;
     /*position: relative;
@@ -188,12 +188,17 @@ display: block;
     color: #150E0C;
 }
 .slide img {
-    height: 75vh;
+    height: 70vh;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-color: #aaa6a7;
 }
 
 .progress {
     margin-bottom: 10px;
-    height: 25px;
+    height: 35px;
 }
 
 
@@ -208,11 +213,32 @@ display: block;
 
 .skill-title {
      font-family: 'Oswald', sans-serif;
+     position: relative;
+     left: 7px;
+     padding-top: 10px;
 }
 
 .progress-type {
    position: absolute;
-   left: 33px;
    top: auto;
-   padding: 3px 15px 2px 10px;
+   padding: 3px 5px 2px 5px;
+}
+
+.progress {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.skill-container {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.skill-colour {
+    background-color: #e7dfd2;
+}
+
+.progress-colour {
+    background-color: #786e79;
 }
