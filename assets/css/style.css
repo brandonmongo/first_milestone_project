@@ -242,3 +242,84 @@ display: block;
 .progress-colour {
     background-color: #786e79;
 }
+
+/*--resume--*/
+
+.resume-title h4 {
+    text-align: center;
+}
+
+.info-item {
+    display: block;
+    clear: both;
+    margin-left: 20px;
+}
+
+.info-item .detail,
+.info-item .answer {
+    display: inline-block;
+}
+
+.info-item .detail p,
+.info-item .answer p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+}
+
+.detail {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.answer {
+    position: relative;
+    width: 50%;
+}
+
+/*--timeline--*/
+
+.timeline-item {
+    position: relative;
+    border-left: 1px solid;
+    padding: 25px 0 20px 20px;
+}
+
+.timeline-item h5 {
+    margin-top: 5px;
+
+}
+
+.timeline-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-item::after {
+    content: attr(data-dates);
+    position: absolute;
+    left: 20px;
+    top: 0;
+    display: block;
+    padding-bottom: 5px
+}
+
+.timeline-item::before {
+     width: 0;
+      height: 0;
+      border-top: 8px solid transparent;
+      border-left: 16px solid black;
+      border-bottom: 8px solid transparent;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 4px;
+      left: -6px;
+}
+
+.qual-history {
+    margin-bottom: 30px;
+}
+
+.last-item {
+    padding-bottom: 0;
+}
