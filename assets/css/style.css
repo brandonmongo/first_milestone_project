@@ -247,6 +247,7 @@ display: block;
 
 .resume-title h4 {
     text-align: center;
+    margin: 10px 0 25px 0;
 }
 
 .info-item {
@@ -268,14 +269,32 @@ display: block;
 
 .detail {
     width: 30%;
-    margin-right: 20px;
+    margin-right: 10px;
+    font-weight: bold;
 }
 
 .answer {
     position: relative;
-    width: 50%;
+    width: 60%;
 }
 
+/*---personal info adjustments for smaller screens---*/
+
+@media screen and (max-width: 1238px) {
+    .info-item .detail p,
+    .info-item .answer p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+   }
+   .info-item .detail,
+   .info-item .answer {
+    display: block;
+}
+}
+
+.all-info {
+    margin: auto 0px;
+}
 /*--timeline--*/
 
 .timeline-item {
@@ -322,4 +341,8 @@ display: block;
 
 .last-item {
     padding-bottom: 0;
+}
+
+.work-history {
+    margin: 0 0 30px 15px;
 }
