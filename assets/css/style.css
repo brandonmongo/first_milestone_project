@@ -243,7 +243,11 @@ display: block;
     background-color: #786e79;
 }
 
-/*--resume--*/
+/*---resume page---*/
+
+.resume-bg-colour {
+    background-color: #e7dfd2;
+}
 
 .resume-title h4 {
     text-align: center;
@@ -292,9 +296,16 @@ display: block;
 }
 }
 
-.all-info {
-    margin: auto 0px;
+  .all-info {
+    margin-top: auto;
+} 
+
+@media screen and (min-width: 992px) {
+   .all-info {
+    margin-top: 90px;
+} 
 }
+
 /*--timeline--*/
 
 .timeline-item {
@@ -345,4 +356,46 @@ display: block;
 
 .work-history {
     margin: 0 0 30px 15px;
+}
+
+/*---contact page---*/
+
+.contact-bg-colour{
+    background-color: #e7dfd2;
+}
+
+.center-contact {
+    padding: 10px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.center-contact input {
+    margin-bottom: 5px;
+}
+
+.contact-title h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #150E0C;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+@media screen and (min-width: 992px) {
+    .center-contact {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 50%;
+    height: 30%;
+}
+
 }
