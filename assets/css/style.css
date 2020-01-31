@@ -5,9 +5,9 @@
     height: 75vh;
     width: 100%;
       background: url(../images/office-desk.jpg) no-repeat; 
-  -webkit-background-size: cover;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
   background-size: 100% 100%;
   
 }
@@ -57,6 +57,10 @@
 }
 .nav-style .navbar-brand {
     color: white;
+}
+
+.navbar-toggler {
+    border: 0;
 }
 /*---Footer---*/
 .footer {
@@ -163,7 +167,7 @@ display: block;
 }
 
  .bio {
-     margin: 75px 10px 25px 5px
+     margin: 40px 10px 25px 5px
  }
 
 .bio-colour {
@@ -282,30 +286,6 @@ display: block;
     width: 60%;
 }
 
-/*---personal info adjustments for smaller screens---*/
-
-@media screen and (max-width: 1238px) {
-    .info-item .detail p,
-    .info-item .answer p {
-    font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
-   }
-   .info-item .detail,
-   .info-item .answer {
-    display: block;
-}
-}
-
-  .all-info {
-    margin-top: auto;
-} 
-
-@media screen and (min-width: 992px) {
-   .all-info {
-    margin-top: 90px;
-} 
-}
-
 /*--timeline--*/
 
 .timeline-item {
@@ -389,6 +369,34 @@ button[type="submit"] {
     font-family: 'Oxygen', sans-serif;
 }
 
+
+/*---media queries---*/
+
+/*---personal info adjustments for smaller screens---*/
+
+@media screen and (max-width: 1238px) {
+    .info-item .detail p,
+    .info-item .answer p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+   }
+   .info-item .detail,
+   .info-item .answer {
+    display: block;
+}
+}
+
+  .all-info {
+    margin-top: auto;
+} 
+
+@media screen and (min-width: 992px) {
+   .all-info {
+    margin-top: 90px;
+} 
+}
+
+/*---media queries for resume---*/
 
 @media screen and (min-width: 992px) {
     .center-contact {
