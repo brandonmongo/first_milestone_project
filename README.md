@@ -1,6 +1,6 @@
 # Brandon Mongo Portfolio
 
-This is my first milestone project under the topic of User Centric Frontend Development that is been administrated by the Code Institute.
+This is my first milestone project under the topic of User Centric Frontend Development that has been administrated by the Code Institute.
 
 The Purpose of my portfolio is to showcase my wide range of coding skills that I’ve learned during my time studying with the coding Institute to future potential employers and recruiters.  In additional give a little information about myself, what I’ve done in my past and give employer and recruiter a platform to contact me.
 
