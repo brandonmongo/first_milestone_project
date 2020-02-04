@@ -36,7 +36,7 @@ The overall structure to my homepage, resume and contact page has a hero image w
 
 ### Skeleton
 
-[view-Skeleton](https://c0ac2457-9e5f-443d-9ed3-ca4ba4a688f2.ws-eu01.gitpod.io/files/download/?id=e4c8cc8b-ef59-452d-a95d-2250a705dc9e "view-Skeleton")
+[View-Skeleton](https://c0ac2457-9e5f-443d-9ed3-ca4ba4a688f2.ws-eu01.gitpod.io/files/download/?id=e4c8cc8b-ef59-452d-a95d-2250a705dc9e "view-Skeleton")
 
 ### Surface
 
