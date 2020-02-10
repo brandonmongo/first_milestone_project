@@ -54,7 +54,7 @@ The site uses the carousel feature from bootstrap which is a slideshow for cycli
 
 ### Features left to Implement 
 
-If I was to do this project again in future, on the projects/skills page in the skills sections I would add animation to the progress bar when the user hovers above each skill. Another thing I’ll add animations to the hero image, like a shrink then back to normal transition when the page loads and add a picture my actual self.
+If I was to do this project again in future, on the projects/skills page in the skills sections I would add animation to the progress bar when the user hovers above each skill. Another thing I’ll add animations to the hero image, like a shrink then back to normal transition when the page loads and add a picture my actual self. Make the commits more descriptive.
 
 ## Testing
 
